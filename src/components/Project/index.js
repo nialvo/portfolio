@@ -1,5 +1,7 @@
 import React from 'react';
 import { removeHyphensAndCapitalize } from '../../utils/helpers';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -16,9 +18,9 @@ function Project({ project }) {
       />
       <div className="project-text">
         <h3>
-          <a href={link}>{removeHyphensAndCapitalize(name)}</a>{' '}
-          <a href={repo}>
-            <i className="fab fa-github"></i>
+          <a className="link hover" href={link}>{removeHyphensAndCapitalize(name)}</a>{' '}
+          <a className="link hoverDarkIcon leftMargin" href={repo}>
+          <FontAwesomeIcon icon={faGithubSquare} />
           </a>
         </h3>
         <p>{description}</p>

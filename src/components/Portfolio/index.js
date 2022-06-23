@@ -6,34 +6,34 @@ function Portfolio() {
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'ear',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'cloud-casino',
+      description: 'Mock casino with MySQL/Express/Sequelize',
+      link: "https://cloud247casino.herokuapp.com/",
+      repo: "https://github.com/nialvo/cloud247casino"
     },
     {
       name: 'piet',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      description: 'Mondrian-style random art generator',
+      link: "https://nialvo.github.io/Piet/",
+      repo: "https://github.com/nialvo/Piet"
     },
     {
-      name: 'pollution',
-      description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'bluer-skies',
+      description: 'Scrollable and searchable pollution map',
+      link: "https://nialvo.github.io/PollutionMap/",
+      repo: "https://github.com/nialvo/PollutionMap"
     },
     {
-      name: 'weather',
-      description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'your-forms',
+      description: 'MERN stack form builder',
+      link: "https://yourforms.app/",
+      repo: "https://github.com/nialvo/form-builder"
     },
   ]);
 
   return (
     <div>
-      <div className="row">
+      <div className="row portfDiv">
         {projects.map((project, idx) => (
           <Project
             project={project}

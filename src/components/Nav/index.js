@@ -14,7 +14,7 @@ function Nav(props) {
 
   return (    
       <nav>
-        <ul className="row">
+        <ul className="row list">
           {pages.map((Page) => (
             <li
               className={`navMenuItems hover ${

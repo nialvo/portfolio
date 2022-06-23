@@ -13,7 +13,7 @@ function About() {
       <div className="aboutDiv">
       <p className="indent">Software developer with a BS in Mathematics and a certificate in full stack web development,
          both from University of California, Irvine. </p>         
-         <p className="indent">Passionate about solving problems, I have written full stack websites using NodeJS, React, Sequelize, Apollo, Express, JawsDB, MongoDB, as well as several smaller programs such as pseudo 3D games (space travel, car racing) in C++, random
+         <p className="indent">Passionate about solving problems, I have written full stack websites using NodeJS, React, Sequelize, GraphQL, Express, JawsDB, MongoDB, as well as several smaller programs such as pseudo 3D games (space travel, car racing) in C++, random
             art generators using HTML/JS/CSS, an automatic trading program (when the RobinHood API was still useable) with Python (Jupyter Notebook for development and Anaconda to run the finished script).</p> 
             <p className="indent">I am an effective communicator and team player as demonstrated throughout
              my coding bootcamp, where I kept open and regular communication with my teammates via
