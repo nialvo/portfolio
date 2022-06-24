@@ -5,8 +5,8 @@ function Header(props) {
 
   return (
     <div id="container">
-    <header className="row header">
-      <h1 className="top">Nialvo</h1>
+    <header className="header">
+      <h1 className="top left ">Nialvo</h1>
       
         <div id="contents">
           <img src={hero} className="hero" alt="a wheat field"></img>
@@ -14,7 +14,7 @@ function Header(props) {
         <div id="gradient"></div>
       
 
-      <div className="top">{props.children}</div>
+      <div className="top right">{props.children}</div>
       
     </header>
     </div>

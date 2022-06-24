@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Card from '@mui/material/Card';
 import Button from '@mui/material/Button';
-import res from "../../assets/PDF/resume.pdf";
+import res from "../../assets/PDF/res.pdf";
 
 
 
@@ -41,9 +41,9 @@ function Resume() {
           <div className="row center">
           <p><a className="link hover" href={res} download="Resume" target="blank">Download</a> my full resume.</p>
           </div>
-          <div className="row between">
+          <div className="row even">
             <div className="skillList">
-              <h3 className="row center">Front-end Proficiencies</h3>
+              <h3 className="row center">Front-end</h3>
               <ul className="skills">
                 <li>HTML</li>
                 <li>CSS</li>
@@ -54,7 +54,7 @@ function Resume() {
 
             </div>
             <div className="skillList">
-              <h3 className="row center">Back-end Proficiencies</h3>
+              <h3 className="row center">Back-end</h3>
               <ul className="skills">
                 <li>APIs</li>
                 <li>NodeJS</li>
