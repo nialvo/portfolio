@@ -98,7 +98,7 @@ h1{
 }
 
 .skillList{
-  width: 160px;
+  width: 260px;
   padding:10px;
   margin:5px;
   background-color:rgb(136,175,217);
@@ -143,22 +143,22 @@ h1{
 
 .project {
   position: relative;
-  width: 160px;
-  height: 120px;
+  width: 260px;
+  height: 220px;
   box-shadow: 2px 2px 10px rgb(255, 251, 180);
   
 }
 
 .projectImage{
   object-fit:cover;
-  width: 160px;
-  height: 120px;
+  width: 260px;
+  height: 220px;
 }
-/*???*/
+
 .projectBox{
-  width: 160px;
-  height: 240px;
-  margin-bottom: 15px;
+  width: 260px;
+  height: 440px;
+  margin: 15px;
 }
 
 .list{
@@ -311,16 +311,41 @@ h1{
   }
 
   .form-style-5 input[type="text"],
-.form-style-5 input[type="email"],
-.form-style-5 input[type="message"],
-.form-style-5 textarea {
-  margin-bottom:10px;
-}
-.form-style-5{
+  .form-style-5 input[type="email"],
+  .form-style-5 input[type="message"],
+  .form-style-5 textarea {
+    margin-bottom:10px;
+  }
+
+  .form-style-5{
 	
-	padding: 4px 8px;
+	  padding: 4px 8px;
 	
 
-}
+  }
+
+  .skillList{
+    width: 160px;
+    padding:10px;
+    margin:5px;
+   
+  }
+
+  .project {
+    width: 160px;
+    height: 120px;
+    
+  }
+  
+  .projectImage{
+    width: 160px;
+    height: 120px;
+  }
+  
+  .projectBox{
+    width: 160px;
+    height: 240px;
+    margin-bottom: 15px;
+  }
 
 }
