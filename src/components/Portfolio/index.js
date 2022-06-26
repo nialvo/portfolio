@@ -24,10 +24,10 @@ function Portfolio() {
       repo: "https://github.com/nialvo/PollutionMap"
     },
     {
-      name: 'your-forms',
+      name: 'formidable',
       description: 'MERN stack form builder',
-      link: "https://yourforms.app/",
-      repo: "https://github.com/nialvo/form-builder"
+      link: "https://form-idable.herokuapp.com",
+      repo: "https://github.com/nialvo/formidable"
     },
   ]);
 
