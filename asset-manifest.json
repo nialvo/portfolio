@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f8de0ee8.css",
-    "main.js": "/portfolio/static/js/main.598bd036.js",
+    "main.css": "/portfolio/static/css/main.43aba6db.css",
+    "main.js": "/portfolio/static/js/main.bb22906f.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/wheat-header.jpeg": "/portfolio/static/media/wheat-header.a34bb70d93296489edcc.jpeg",
     "static/media/ear.PNG": "/portfolio/static/media/ear.e5ce53494f5043003fac.PNG",
@@ -18,12 +18,12 @@
     "static/media/poiret-one-latin-ext-400-normal.woff2": "/portfolio/static/media/poiret-one-latin-ext-400-normal.7a9e4415dd6d25a9c6d9.woff2",
     "static/media/poiret-one-cyrillic-400-normal.woff2": "/portfolio/static/media/poiret-one-cyrillic-400-normal.2bb01844fa4b4148195a.woff2",
     "index.html": "/portfolio/index.html",
-    "main.f8de0ee8.css.map": "/portfolio/static/css/main.f8de0ee8.css.map",
-    "main.598bd036.js.map": "/portfolio/static/js/main.598bd036.js.map",
+    "main.43aba6db.css.map": "/portfolio/static/css/main.43aba6db.css.map",
+    "main.bb22906f.js.map": "/portfolio/static/js/main.bb22906f.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8de0ee8.css",
-    "static/js/main.598bd036.js"
+    "static/css/main.43aba6db.css",
+    "static/js/main.bb22906f.js"
   ]
 }
