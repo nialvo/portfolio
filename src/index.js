@@ -4,10 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '@fontsource/poiret-one';
+import {Helmet} from "react-helmet";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, user-scalable=yes"/>
+    </Helmet>
     <App />
   </React.StrictMode>
 );

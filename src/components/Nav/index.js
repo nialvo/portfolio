@@ -8,6 +8,8 @@ function Nav(props) {
     currentPage,
   } = props;
 
+  
+
   useEffect(() => {
     document.title = removeHyphensAndCapitalize(currentPage.name);
   }, [currentPage]);
